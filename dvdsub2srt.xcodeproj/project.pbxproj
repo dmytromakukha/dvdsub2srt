@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3208D0F22B0FDB1300972596 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3208D0F12B0FDB0800972596 /* libz.tbd */; };
+		3208D0F42B0FDB2A00972596 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3208D0F32B0FDB1B00972596 /* libbz2.tbd */; };
+		3208D0F62B0FDB3C00972596 /* liblzma.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3208D0F52B0FDB3C00972596 /* liblzma.tbd */; };
+		3208D0FA2B0FDB5C00972596 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3208D0F72B0FDB5C00972596 /* libavcodec.a */; };
+		3208D0FB2B0FDB5D00972596 /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3208D0F82B0FDB5C00972596 /* libavformat.a */; };
+		3208D0FC2B0FDB5D00972596 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3208D0F92B0FDB5C00972596 /* libavutil.a */; };
+		327896212AF01B31007534B6 /* SubtitlesImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278961B2AF01B31007534B6 /* SubtitlesImages.swift */; };
+		327896222AF01B31007534B6 /* SubtitlesRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278961C2AF01B31007534B6 /* SubtitlesRecognizer.swift */; };
+		327896232AF01B31007534B6 /* SubtitlesVision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278961D2AF01B31007534B6 /* SubtitlesVision.swift */; };
+		327896242AF01B31007534B6 /* ConsoleArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278961E2AF01B31007534B6 /* ConsoleArguments.swift */; };
+		327896252AF01B31007534B6 /* SubtitlesDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278961F2AF01B31007534B6 /* SubtitlesDecoder.swift */; };
+		327896262AF01B31007534B6 /* ConsoleApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327896202AF01B31007534B6 /* ConsoleApplication.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3278960E2AF012DC007534B6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3208D0F12B0FDB0800972596 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		3208D0F32B0FDB1B00972596 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		3208D0F52B0FDB3C00972596 /* liblzma.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = liblzma.tbd; path = usr/lib/liblzma.tbd; sourceTree = SDKROOT; };
+		3208D0F72B0FDB5C00972596 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = ../../ffmpeg6/lib/libavcodec.a; sourceTree = "<group>"; };
+		3208D0F82B0FDB5C00972596 /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = ../../ffmpeg6/lib/libavformat.a; sourceTree = "<group>"; };
+		3208D0F92B0FDB5C00972596 /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = ../../ffmpeg6/lib/libavutil.a; sourceTree = "<group>"; };
+		327896102AF012DC007534B6 /* dvdsub2srt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dvdsub2srt; sourceTree = BUILT_PRODUCTS_DIR; };
+		3278961A2AF01B31007534B6 /* dvdsub2srt-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dvdsub2srt-Bridging-Header.h"; sourceTree = "<group>"; };
+		3278961B2AF01B31007534B6 /* SubtitlesImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtitlesImages.swift; sourceTree = "<group>"; };
+		3278961C2AF01B31007534B6 /* SubtitlesRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtitlesRecognizer.swift; sourceTree = "<group>"; };
+		3278961D2AF01B31007534B6 /* SubtitlesVision.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtitlesVision.swift; sourceTree = "<group>"; };
+		3278961E2AF01B31007534B6 /* ConsoleArguments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleArguments.swift; sourceTree = "<group>"; };
+		3278961F2AF01B31007534B6 /* SubtitlesDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtitlesDecoder.swift; sourceTree = "<group>"; };
+		327896202AF01B31007534B6 /* ConsoleApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleApplication.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3278960D2AF012DC007534B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3208D0FA2B0FDB5C00972596 /* libavcodec.a in Frameworks */,
+				3208D0FB2B0FDB5D00972596 /* libavformat.a in Frameworks */,
+				3208D0FC2B0FDB5D00972596 /* libavutil.a in Frameworks */,
+				3208D0F62B0FDB3C00972596 /* liblzma.tbd in Frameworks */,
+				3208D0F42B0FDB2A00972596 /* libbz2.tbd in Frameworks */,
+				3208D0F22B0FDB1300972596 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3208D0F02B0FDB0800972596 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3208D0F72B0FDB5C00972596 /* libavcodec.a */,
+				3208D0F82B0FDB5C00972596 /* libavformat.a */,
+				3208D0F92B0FDB5C00972596 /* libavutil.a */,
+				3208D0F52B0FDB3C00972596 /* liblzma.tbd */,
+				3208D0F32B0FDB1B00972596 /* libbz2.tbd */,
+				3208D0F12B0FDB0800972596 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		327896072AF012DC007534B6 = {
+			isa = PBXGroup;
+			children = (
+				327896122AF012DC007534B6 /* dvdsub2srt */,
+				327896112AF012DC007534B6 /* Products */,
+				3208D0F02B0FDB0800972596 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		327896112AF012DC007534B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				327896102AF012DC007534B6 /* dvdsub2srt */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		327896122AF012DC007534B6 /* dvdsub2srt */ = {
+			isa = PBXGroup;
+			children = (
+				327896202AF01B31007534B6 /* ConsoleApplication.swift */,
+				3278961E2AF01B31007534B6 /* ConsoleArguments.swift */,
+				3278961F2AF01B31007534B6 /* SubtitlesDecoder.swift */,
+				3278961B2AF01B31007534B6 /* SubtitlesImages.swift */,
+				3278961C2AF01B31007534B6 /* SubtitlesRecognizer.swift */,
+				3278961D2AF01B31007534B6 /* SubtitlesVision.swift */,
+				3278961A2AF01B31007534B6 /* dvdsub2srt-Bridging-Header.h */,
+			);
+			path = dvdsub2srt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3278960F2AF012DC007534B6 /* dvdsub2srt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 327896172AF012DC007534B6 /* Build configuration list for PBXNativeTarget "dvdsub2srt" */;
+			buildPhases = (
+				3278960C2AF012DC007534B6 /* Sources */,
+				3278960D2AF012DC007534B6 /* Frameworks */,
+				3278960E2AF012DC007534B6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dvdsub2srt;
+			productName = dvdsub2srt;
+			productReference = 327896102AF012DC007534B6 /* dvdsub2srt */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		327896082AF012DC007534B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3278960F2AF012DC007534B6 = {
+						CreatedOnToolsVersion = 15.0.1;
+						LastSwiftMigration = 1500;
+					};
+				};
+			};
+			buildConfigurationList = 3278960B2AF012DC007534B6 /* Build configuration list for PBXProject "dvdsub2srt" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 327896072AF012DC007534B6;
+			productRefGroup = 327896112AF012DC007534B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3278960F2AF012DC007534B6 /* dvdsub2srt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3278960C2AF012DC007534B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327896212AF01B31007534B6 /* SubtitlesImages.swift in Sources */,
+				327896232AF01B31007534B6 /* SubtitlesVision.swift in Sources */,
+				327896242AF01B31007534B6 /* ConsoleArguments.swift in Sources */,
+				327896252AF01B31007534B6 /* SubtitlesDecoder.swift in Sources */,
+				327896262AF01B31007534B6 /* ConsoleApplication.swift in Sources */,
+				327896222AF01B31007534B6 /* SubtitlesRecognizer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		327896152AF012DC007534B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		327896162AF012DC007534B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		327896182AF012DC007534B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/ffmpeg/include";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/ffmpeg/lib";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "dvdsub2srt/dvdsub2srt-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		327896192AF012DC007534B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/ffmpeg/include";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/ffmpeg/lib";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "dvdsub2srt/dvdsub2srt-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3278960B2AF012DC007534B6 /* Build configuration list for PBXProject "dvdsub2srt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327896152AF012DC007534B6 /* Debug */,
+				327896162AF012DC007534B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		327896172AF012DC007534B6 /* Build configuration list for PBXNativeTarget "dvdsub2srt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327896182AF012DC007534B6 /* Debug */,
+				327896192AF012DC007534B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 327896082AF012DC007534B6 /* Project object */;
+}

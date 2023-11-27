@@ -222,7 +222,7 @@ enum SubtitlesDecoderError: Error {
     case noCodecpar
 }
 
-private extension String {
+extension String {
     init(errorCode: Int32) {
         let errbufSize = Int(AV_ERROR_MAX_STRING_SIZE)
         let errbuf = UnsafeMutablePointer<Int8>.allocate(capacity: errbufSize)

@@ -8,9 +8,10 @@ import Foundation
 struct ConsoleApplication {
     static func printUsageHelp() {
         print("Application for converting DVD or Blu-ray disc subtitles to text subtitles .srt")
-        print("Usage: dvdsub2srt [-s stream] <path_to_video_file>")
+        print("Usage: dvdsub2srt [-s stream] [-l] <path_to_video_file>")
         print("Options:")
         print("  -s <stream>  Set the stream index of subtitles to process")
+        print("  -l           Show list of file streams")
     }
     
     static func main() throws {
@@ -22,8 +23,16 @@ struct ConsoleApplication {
             exit(1)
         }
         
-        let index = arguments.streamIndex
         let url = URL(fileURLWithPath: path)
+        if arguments.showStreams {
+            let streams = try ShowStreams().allStreamInfo(url: url)
+            streams.forEach {
+                print("Stream \($0.index)(\($0.language)): \($0.comment)")
+            }
+            exit(0)
+        }
+        
+        let index = arguments.streamIndex
         let processor = SubtitlesRecognizer(url: url, index: index)
         try processor.open()
         

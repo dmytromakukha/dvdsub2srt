@@ -13,6 +13,7 @@
 		3208D0FA2B0FDB5C00972596 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3208D0F72B0FDB5C00972596 /* libavcodec.a */; };
 		3208D0FB2B0FDB5D00972596 /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3208D0F82B0FDB5C00972596 /* libavformat.a */; };
 		3208D0FC2B0FDB5D00972596 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3208D0F92B0FDB5C00972596 /* libavutil.a */; };
+		32372EF22B14A1C000608943 /* ShowStreams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32372EF02B1492E000608943 /* ShowStreams.swift */; };
 		327896212AF01B31007534B6 /* SubtitlesImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278961B2AF01B31007534B6 /* SubtitlesImages.swift */; };
 		327896222AF01B31007534B6 /* SubtitlesRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278961C2AF01B31007534B6 /* SubtitlesRecognizer.swift */; };
 		327896232AF01B31007534B6 /* SubtitlesVision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278961D2AF01B31007534B6 /* SubtitlesVision.swift */; };
@@ -40,6 +41,7 @@
 		3208D0F72B0FDB5C00972596 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = ../../ffmpeg6/lib/libavcodec.a; sourceTree = "<group>"; };
 		3208D0F82B0FDB5C00972596 /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = ../../ffmpeg6/lib/libavformat.a; sourceTree = "<group>"; };
 		3208D0F92B0FDB5C00972596 /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = ../../ffmpeg6/lib/libavutil.a; sourceTree = "<group>"; };
+		32372EF02B1492E000608943 /* ShowStreams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowStreams.swift; sourceTree = "<group>"; };
 		327896102AF012DC007534B6 /* dvdsub2srt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dvdsub2srt; sourceTree = BUILT_PRODUCTS_DIR; };
 		3278961A2AF01B31007534B6 /* dvdsub2srt-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dvdsub2srt-Bridging-Header.h"; sourceTree = "<group>"; };
 		3278961B2AF01B31007534B6 /* SubtitlesImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtitlesImages.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				3278961B2AF01B31007534B6 /* SubtitlesImages.swift */,
 				3278961C2AF01B31007534B6 /* SubtitlesRecognizer.swift */,
 				3278961D2AF01B31007534B6 /* SubtitlesVision.swift */,
+				32372EF02B1492E000608943 /* ShowStreams.swift */,
 				3278961A2AF01B31007534B6 /* dvdsub2srt-Bridging-Header.h */,
 			);
 			path = dvdsub2srt;
@@ -170,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32372EF22B14A1C000608943 /* ShowStreams.swift in Sources */,
 				327896212AF01B31007534B6 /* SubtitlesImages.swift in Sources */,
 				327896232AF01B31007534B6 /* SubtitlesVision.swift in Sources */,
 				327896242AF01B31007534B6 /* ConsoleArguments.swift in Sources */,

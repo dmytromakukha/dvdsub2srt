@@ -10,31 +10,33 @@ extension ConsoleApplication {
     struct Arguments {
         let streamIndex: Int?
         let path: String?
+        let showStreams: Bool
         
         init(_ arguments: [String]) {
             var waitForStreamIndexArgument = false
             var streamIndex: Int?
             var path: String?
-            var skipFirst = true
-            for argument in arguments {
-                if skipFirst { skipFirst = false; continue }
-                
+            var showStreams = false
+            for argument in arguments.dropFirst() {
                 if waitForStreamIndexArgument {
                     waitForStreamIndexArgument = false
                     streamIndex = Int(argument)
                     continue
                 }
                 
-                if argument=="-s" {
+                switch argument {
+                case "-s":
                     waitForStreamIndexArgument = true
-                    continue
-                } else {
+                case "-l":
+                    showStreams = true
+                default:
                     path = argument
                 }
             }
             
             self.streamIndex = streamIndex
             self.path = path
+            self.showStreams = showStreams
         }
     }
 }
